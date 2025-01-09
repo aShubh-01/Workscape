@@ -118,6 +118,7 @@ model Certification {
   id Int @id @default(autoincrement())
   certificationTitle String
   certificationDescription String?
+  certificationOrganization String?
   certificateObjectId String
 
   portfolioId Int

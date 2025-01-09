@@ -9,5 +9,6 @@ mainRouter.use(express.json());
 mainRouter.get('Workscape API working');
 
 mainRouter.use('/user');
+mainRouter.use('/portfolio');
 mainRouter.use('/jobs');
 mainRouter.use('/application');
